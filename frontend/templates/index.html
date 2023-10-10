@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urine Strip Color Identification</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/main.js' %}"></script>
+
+</head>
+<body>
+    <h1>Urine Strip Color Identification</h1>
+    <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" id="file-input" name="image" accept="image/*">
+        <button type="submit">Upload and Identify Colors</button>
+    </form>
+    <div id="results">
+        <!-- Display color identification results here -->
+    </div>
+</body>
+</html>
