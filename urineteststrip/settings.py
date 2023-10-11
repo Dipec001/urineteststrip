@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import os
 
-port = int(os.environ.get("PORT", 8000))
+PORT = int(os.environ.get("PORT", 8000))
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -29,6 +29,8 @@ SECRET_KEY = 'django-insecure-y+)axl+7rb)*z73iltd97*i9rbo)-vsi@-i42ksg7r)k)5q8*%
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+# Bind to the specified port
+# ADDR = '0.0.0.0:' + str(PORT)
 
 
 # Application definition

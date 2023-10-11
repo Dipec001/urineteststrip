@@ -11,16 +11,16 @@ def process_image(image):
     # Define the coordinates and dimensions of the color boxes on the strip
     # This is an example; you should adjust these values based on your image
     box_coordinates = [
-        (122, 42, 70, 60),  # URO box
-        (10, 60, 40, 90),  # BIL box
-        (10, 110, 40, 140),  # KET box
-        (10, 160, 40, 190),  # BLD box
-        (10, 210, 40, 240),  # PRO box
-        (10, 260, 40, 290),  # NIT box
-        (10, 310, 40, 340),  # LEU box
+        (124, 42, 64, 58),  # URO box
+        (124, 134, 64, 57),  # BIL box
+        (120, 216, 70, 62),  # KET box
+        (124, 300, 68, 58),  # BLD box
+        (120, 392, 66, 58),  # PRO box
+        (124, 474, 64, 62),  # NIT box
+        (122, 575, 64, 58),  # LEU box
         (122, 662, 62, 54),  # GLU box
-        (10, 410, 40, 440),  # SG box
-        (10, 460, 40, 490),  # PH box
+        (118, 748, 68, 60),  # SG box
+        (118, 834, 66, 64),  # PH box
     ]
 
     # Initialize a dictionary to store the identified colors
